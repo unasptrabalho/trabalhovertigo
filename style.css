@@ -10,6 +10,7 @@
 --purple: #7c3aed;
 --gray-200: #e2e8f0;
 --gray-400: #94a3b9;
+--white: #fff;
 }
 
 
@@ -86,4 +87,17 @@ font-size: 1.5625rem;
 
 .login a:hover {
     text-decoration: underline ;
+}
+
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+
 }
