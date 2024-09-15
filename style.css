@@ -91,13 +91,23 @@ font-size: 1.5625rem;
 
 .login button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-block: 1rem;
     width: 100%;
     background: var(--purple);
     border: none;
     border-radius: 0.25rem;
+
     font-size: 1rem;
     font-weight: 700;
     color: var(--white);
-
 }
+
+.login > p {
+    color: var(--grey-600);
+}
+ .login > p a {
+    font-weight: 700;
+    font-size: 1rem;
+    
+ }
